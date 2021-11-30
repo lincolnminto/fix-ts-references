@@ -1,0 +1,19 @@
+{
+  "name": "fix-ts-references",
+  "version": "1.0.0",
+  "description": "Fix typescript references over case-sensitive file systems.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "fix-ts-references" : "./cli.js"
+  },
+  "author": "Lincoln Minto",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0",
+    "figlet": "^1.5.2"
+  }
+}
