@@ -1,6 +1,6 @@
 {
   "name": "@lincolnminto/fix-ts-references",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": false,
   "description": "Fix typescript references across case-sensitive file systems.",
   "keywords": [
