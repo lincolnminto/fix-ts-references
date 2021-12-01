@@ -1,16 +1,34 @@
 {
-  "name": "fix-ts-references",
-  "version": "1.0.0",
-  "description": "Fix typescript references over case-sensitive file systems.",
+  "name": "@lincolnminto/fix-ts-references",
+  "version": "0.0.2",
+  "private": false,
+  "description": "Fix typescript references across case-sensitive file systems.",
+  "keywords": [
+    "references",
+    "case-sensitive",
+    "typescript",
+    "fix",
+    "file system",
+    "ts"
+  ],
   "main": "./index.js",
+  "homepage": "https://github.com/lincolnminto/fix-ts-references",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lincolnminto/fix-ts-references.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "bin": {
-    "fix-ts-references" : "./cli.js"
+    "fix-ts-references": "./cli.js"
   },
-  "author": "Lincoln Minto",
+  "author": {
+    "name": "Lincoln Minto",
+    "email": "lincolnminto@gmail.com",
+    "url": "https://github.com/lincolnminto/"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "inquirer": "^8.2.0",
