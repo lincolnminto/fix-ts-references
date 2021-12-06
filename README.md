@@ -1,7 +1,7 @@
 
 # Fix Typescript References
 
-***fix-ts-references*** is fix tool created to fix imported TypeScript references in non case-sensitive file-systems. 
+***fix-ts-references*** a is fix tool created to fix imported TypeScript references in non case-sensitive file-systems. 
 
 ## Install
 
